@@ -1,0 +1,345 @@
+.tonglan {
+	width: 100%;
+	min-width: 1200px;
+}
+.w-small {
+	width: 1200px;
+	margin: 0 auto;
+}
+.w-big {
+	min-width: 1200px;
+	max-width: 1920px;
+	margin: 0 auto;
+	width: 100%;
+}
+/* 第一部分Mate30 最顶部列表样式 */
+.banner-top {
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+.head {
+	background-image: url(../images/photos/banner-000.jpg);
+	background-position: center center; 
+	height: 60px;
+}
+div.banner-top-list {
+	position: relative;
+	right: -50%;
+	top: 0;
+	transform: translateY(-65px);
+}
+.banner-top-list>ul {}
+.banner-top-list>ul>li {
+	display: inline-block;	
+	padding-top: 21px;
+	padding-left: 13px;
+	padding-right: 13px;	
+}
+.banner-top-list>ul>li>a {
+	font-size: 16px;
+	display: inline-block;
+	color: #fff;
+}
+.banner-top-list>ul>li>a>img {
+	padding: 0 8px;
+}
+.banner-top-list>ul>li>a>span {
+	padding: 0 4px;
+}
+.banner-top-list>ul>li>a>a {}
+.banner-top-list>ul>li.underline>a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+ /* 第二部分Mate30大宣传图片样式 */
+ .banner-wrapper {
+	 transform: translateY(60px);
+ }
+.advertise-banner-one {
+	height: 950px;
+	background-image: url(../images/photos/banner-001.jpg);
+	background-position: center center;
+}
+/* 第三部分轮播图(第一组轮播图) */
+.carousel-one-wapper {
+	overflow: hidden; 
+	padding-top: 60px;
+}
+ul.carousel-one {
+	font-size: 0;
+	white-space: nowrap;
+	transition: all 0.6s;
+	width: 100%;
+}
+ul.carousel-one>li {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #b0b0b0;
+	width: 20%;
+	text-align: center;
+	padding: 30px 20px;
+	transition: all 0.4s;
+}
+ul.carousel-one>li>a {
+	font-size: 15px;
+}
+ul.carousel-one>li>a>img {
+	width: 60%;
+	margin: 10px 0;
+}
+ul.carousel-one>li>a>p {}
+ul.carousel-one>li>a>p.name {
+	font-size: 14px;
+	margin: 5px 0;
+	color: #000;
+}
+ul.carousel-one>lir>a>p.introduce {
+		font-size: 12px;
+		color: #a4a4a4;
+}
+ul.carousel-one>li>a>p.price {
+	margin: 15px 0;
+	color: #005360;
+}
+ul.carousel-one>li:hover {
+	box-shadow:0 6px 3px 1px #dcdcdc;
+}
+/* 轮播图左右小按钮部分 */
+input {
+	width: 25px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.3);
+	cursor: pointer;
+	transform: translateY(-180px);
+}
+input.carousel-one-btn-prev {
+	float: left;
+}
+input.carousel-one-btn-next {
+	float: right;
+}
+/* 第四部分banner图 */
+
+.advertise-banner-two {
+	background-image: url(../images/photos/banner-002.jpg);
+	background-position: center center;
+	height: 691px;
+}
+
+/* 第五部分轮播图(第二组轮播) */
+.carousel-two-wapper {
+	overflow: hidden; 	
+	margin-bottom: 20px;
+}
+ul.carousel-two {
+	font-size: 0;
+	white-space: nowrap;
+	transition: all 0.6s;
+	width: 100%;
+}
+ul.carousel-two>li.wares-two-wapper {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #b0b0b0;
+	border-left: 0;
+	width: 20%;
+	text-align: center;
+	padding: 30px 20px;
+	transition: all 0.4s;
+}
+ul.carousel-two>li.active {
+	border-left: 1px solid #b0b0b0;
+}
+ul.carousel-two>li.wares-two-wapper>a {
+	font-size: 15px;
+}
+ul.carousel-two>li.wares-two-wapper>a>img {
+	width: 60%;
+	margin: 10px 0;
+}
+ul.carousel-two>li.wares-two-wapper>a>p {}
+ul.carousel-two>li.wares-two-wapper>a>p.name {
+	font-size: 14px;
+	margin: 5px 0;
+	color: #000;
+}
+ul.carousel-two>li.wares-two-wapper>a>p.introduce {
+	font-size: 12px;
+	color: #a4a4a4;
+}
+ul.carousel-two>li.wares-two-wapper>a>p.price {
+	margin: 15px 0;
+	color: #005360;
+}
+ul.carousel-two>li:hover {
+	box-shadow:0 6px 3px 1px #dcdcdc;
+}
+/* 轮播图左右小按钮部分 */
+input {
+	width: 25px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.3);
+	cursor: pointer;
+	transform: translateY(-180px);
+}
+input.carousel-two-btn-prev {
+	float: left;
+}
+input.carousel-two-btn-next {
+	float: right;
+}
+/* 第六部分版心banner图 */
+.banner-three {}
+.advertise-banner-three {
+	background-image: url(../images/photos/banner-004.jpg);
+	background-position: center center;
+	height: 601.28px;
+}
+
+/* 第七部分大轮播图 */
+.banner-four {
+	overflow: hidden;
+	position: relative;
+	background-color: #DCDCDC;
+	box-sizing: border-box;
+	height: 640px;
+}
+.banner-four>span {
+	writing-mode: vertical-lr;
+	display: inline-block;
+	transform: translate(30px,300px);
+	font-size: 20px;
+	font-weight: bold;
+}
+/* banner的slide样式 */
+ul.banner-slide {
+	width: 500%;
+	display: inline-block;
+}
+ul.banner-slide>li {
+	width: 20%;
+	float: left;
+	transform: translate(-285px,-80px);
+	display: block;
+}
+ul.banner-silde>li>a {
+	display: block;
+	font-size: 0;
+}
+ul.banner-silder>li>a>img {
+	width: 100%;
+}
+/* banner的indicators样式 */
+ul.banner-indicators {
+	position: absolute;
+	left: 50%; 
+	bottom: 10px;
+	transform: translateX(-50%);	
+}
+ul.banner-indicators>li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	margin: 0 10px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+ul.banner-indicators>li.active {
+	background-color: #696969;
+	box-shadow: 0 0  2px 4px #B0B0B0;
+}
+/* 第八部分 */
+.banner-fift {
+	margin-top: 30px;
+	background-image: url(../images/photos/banner-005.jpg);
+	background-position: center center;
+	height: 62px;
+}
+	
+/* 第九部分 */
+.photos-wrapper {
+	font-size: 0;
+}
+.photos-wrapper>ul {}
+.photos-wrapper>ul>li {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 33.333333%;
+	overflow: hidden;
+	padding: 0 5px 10px;
+}
+.photos-wrapper>ul>li>a {}
+.image-wrapper {
+	height: 270px;
+	overflow: hidden;
+	
+}
+.image-wrapper>img {
+	height: 100%;
+	width: 100%;
+transition: all 0.6s;
+}
+.avter-wrapper {
+	padding: 10px 0;
+	transition: all 0.6s;
+}
+.avter {
+	font-size: 16px;
+	text-align: center;
+	padding: 0 20px;
+}
+.avter>p.names {
+	font-size: 24px;
+	height: 37px;
+	line-height: 37px;
+	color: #000000;
+}
+.avter>p.avter {
+	color: #808080;
+	margin: 0 0 12px;
+}
+.avter>p.goods {
+	font-size: 24px;
+	color: #00918e;
+}
+.price-wrapper {
+	font-size: 0;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #000000;
+	text-align: center;
+	margin: 10px 110px;
+	border-radius: 24px;
+	color: #fff;	
+}
+.price-wrapper>span {
+	display: inline-block;
+	font-size: 16px;
+}
+.price-wrapper>span>p.price {
+	display: inline-block;
+	font-size: 28px;
+}
+.price-wrapper>span>p.price-assist {
+	display: inline-block;
+}
+/* 第九部分鼠标滑过变化，图片变大，文字背景变化 */
+.photos-wrapper>ul>li:hover .avter-wrapper {
+	background-color: rgba(0,0,0,0.9);
+}
+.photos-wrapper>ul>li:hover p.names {
+	color: #fff;
+}
+.photos-wrapper>ul>li:hover .image-wrapper>img {
+	transform: scale(1.1);
+}
+/* 最后 */
+.banner-six {
+	background-image: url(../images/photos/banner-006.jpg);
+	background-position: center center;
+	height: 354px;
+}
+

@@ -1,0 +1,354 @@
+.w { 
+	width: 1200px; 
+	margin: 0 auto;
+	position: relative;
+}
+.tonglan { min-width: 1200px; width: 100%; }
+
+.header {
+	background-color: #F9F9F9;
+}
+/* 公共样式 */
+ul.header-lft>li>a,.header-rgt>li>a {
+	display: block;
+	font-size: 12px;
+	color: #AFAFAF;
+	padding: 10px 10px;
+}
+ul.header-lft>li>a:hover,.header-rgt>li>a:hover {
+	color: #CB242B;
+}
+.tr:hover>a {
+	color:  #CB242B;
+}
+.tr:hover {
+	background-color: white;
+	color: #CB242B;
+}
+.header .tr>a:hover {
+	color: #CB242B;
+	background-color: #FFFFFF;
+}
+.rgt-nav-sub>li>a:hover,.lft-nav-sub>li>a:hover {
+	color: #CB242B;
+}
+/* 客户服务等的二级菜单 */
+.tr {
+	position: relative;
+}
+.rgt-nav-sub,.lft-nav-sub {
+	 border-bottom-right-radius: 10px;
+	 border-bottom-left-radius: 10px;
+	 display: none;
+	 z-index: 100;
+	 position: absolute;
+	 top: 100%;
+	 padding: 5px 0;
+	 text-align: center;
+}
+.r1,.r3 {
+	left: 0;
+	width: 100%;
+}
+.tr:hover>.rgt-nav-sub,.tr:hover>.lft-nav-sub{
+	display: block;
+	background-color: #FFFFFF;
+}
+.r1>li>a,.r3>li>a {
+	display: block;
+	color: #999999;
+	font-size: 13px;
+	padding: 10px 10px;
+}
+.r2 {
+	right: 0;
+	font-size: 0;
+}
+
+/* 通栏左边 */
+ul.header-lft>li {
+	float: left;
+}
+
+/* 通栏右边 */
+i.icon-downarrow {
+	font-size: 12px;
+	padding-left: 5px;
+}
+ul.header-rgt {
+	float: right;
+}
+ul.header-rgt>li {
+	float: left;
+}
+
+
+/* 左边的头部 */
+body { background-color: #F5F5F5;}
+.div { 
+	display: block;
+}
+ul.logo {
+	padding: 15px;
+}
+ul.logo>a>img { 
+	height: 36px;
+	width: 205px;
+	float: left;
+}
+.logo-word { ;
+	background-color: #fff;
+	height: 70px;
+}
+ul.logo>span {
+	font-size: 25px;
+	margin-left: 20px;
+	color: black;
+}
+/* 头部和列表的距离 */
+.cashier-order-area { border-top: 3px solid #63AA56;}
+.orderInfo-img {
+	width: 64px;
+    height: 64px;
+    margin: 30px 21px 0 34px;
+}
+.orderInfo-words {
+	padding: 28px 22px 20px 0;
+}
+.orderInfo-words>span {
+	font-size: 18px;
+	line-height: 26px;
+	color: #53A724; 
+	padding: 28px 22px 20px 0;
+}
+ .pull-left {float: left;}
+ .orderInfo-words1 {
+ 	padding-left: 28px;
+ }
+ .orderwords01>h5 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 74px;
+    color: #333333;
+}
+.orderwords01>h5>span>span.minute {
+	color: #CA141D;
+}
+.orderwords01>h5>span>span.second {
+	color: #CA141D;
+}
+.orderwords02 {
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: -1px;
+	color: #DA3232;
+}
+/* 支付方式 */
+ul.detail-elevator-title { margin-top: 46px;}
+ul.detail-elevator-title>li {
+	float: left;
+	padding: 10px;
+	margin-bottom: -1px;
+	width: 168px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+	background: #F2F2F2;
+	cursor: pointer;
+}
+ul.detail-elevator-con {  border: 1px solid #CCCCCC;}
+ul.detail-elevator-con>li {
+	display: inline-block;
+}
+ul.detail-elevator-con>li>img {
+	width: 100%;
+}
+/* 所有默认都不显示 */
+ul.detail-elevator-con>li { display: none;}
+/* 再让第一个默认显示 */			
+ul.detail-elevator-con>li.show { display: block; }
+ul.detail-elevator-title>li.show {
+	background-color: #fff;
+	border-top: 2px solid #b0b0b0;
+}
+/* 确认支付 */
+ul.payBtn {
+	width: 100%;
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+ul.payBtn>li {}
+ul.payBtn>li>a>span.Pay {
+    width: 168px;
+    line-height: 40px;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background: #DA3232;
+    color: #ffffff;
+}
+.footer {
+	background-color: #F9F9F9;
+	margin-top: -40px;
+}
+.footer-w {
+	padding-top: 20px;
+	overflow: hidden;
+}
+.footer-top-wrapper {
+	font-size: 0;
+	margin-right: -30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E9E9E9;
+}
+.footer-top-wrapper>li {
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding-right: 30px;
+}
+.footer-top-wrapper>li>a>* {
+	vertical-align: middle;
+}
+.footer-top-wrapper>li>a>span {
+	font-size: 18px;
+	padding-left: 10px;
+	color: #333333;
+}
+.footer-top-wrapper>li>a>i {
+	font-size: 38px;
+	color: #CB242B;
+}
+/* 中间 */
+.footer-ctr-wrapper {
+	margin: 20px 0 30px 0;
+}
+.footer-ctr-lft {
+	float: left;
+	width: 900px;
+	border-right: 1px solid #E9E9E9;
+}
+.footer-ctr-lft>div {
+	float: left;
+	width: 16.666666%;
+}
+.footer-ctr-lft>div>p {
+	font-size: 15px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.footer-ctr-lft>div>span {
+	display: block;
+	font-size: 13px;
+	color: #777777;
+	margin-top: 5px;
+}
+.footer-ctr-lft>div>span:hover {
+	cursor: pointer;
+	color: #CB242B;
+}
+/* 右边 */
+.footer-rgt-wrapper {
+	width: 299px;
+	float: right;
+	text-align: center;
+}
+.footer-rgt-wrapper>h4 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #575757;
+	padding-bottom: 5px;
+}
+.footer-rgt-wrapper>span {
+	font-size: 14px;
+	color: #575757;
+}
+.footer .customer {
+	width: 150px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #333333;
+	margin: 15px 80px 20px 80px;
+}
+.footer .customer>* {
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.footer .customer>i {
+	padding-left: 5px;
+}
+.footer .footeer-icon>span {
+	color: #575757;
+	font-size: 15px;
+}
+.footer .footeer-icon>i {
+	font-size: 22px;
+	padding: 0 4px;
+}
+.footer .footeer-icon>i:hover {
+	cursor: pointer;
+	color: rgba(0,0,0,0.5);
+}
+.footer .customer:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+/* 下边 */
+.footer-btm-wrapper {
+	border-top: 1px solid #E9E9E9;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.footer-btm-wrapper>.btm-lft {
+	width: 100px;
+	float: left;
+}
+.footer-btm-wrapper>.btm-lft>img {
+	width: 100%;
+	font-size: 0;
+}
+.footer-btm-wrapper>.btn-ctr {
+	width: 65%;
+	display: inline-block;
+	margin-left: 20px;
+}
+.footer-btm-wrapper>.btn-ctr>a {
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	color: #777777;
+}
+.footer-btm-wrapper>.btn-ctr>a>span {
+	color: #D3D3D3;
+	display: inline-block;
+	padding-left: 3px;
+}
+.footer-btm-wrapper>.btn-btn {
+	display: inline-block;
+	width: 64%;
+	margin-left: 20px;
+}
+.footer-btm-wrapper>.btn-btn>* {
+	font-size: 12px;
+	color: #A4A4A4;
+}
+/* 鼠标滑过 */
+.footer-btm-wrapper>.btn-ctr>a:hover {
+	color: #CB242B;
+}
+.footer-btm-wrapper>.btn-btn>a:hover {
+	color: #CB242B;
+}
+/* 右边 */
+.footer-btm-wrapper>.btn-rgt {
+	float: right;
+	width: 10%;
+}
+.footer-btm-wrapper>.btn-rgt>img {
+	width: 70%;
+	font-size: 0;
+}
+

@@ -1,0 +1,258 @@
+.w {width: 1200px; margin: 0 auto}
+.tonglan {min-width: 1200px; width: 100%;}
+
+.top {	
+	vertical-align: middle;
+}
+.top>img {}
+.top>ul,.top>img {
+	display:inline-block;
+	vertical-align: middle;
+}
+.top>ul {margin:0 30px; fot-size: 0;}
+.top>ul>li {
+	font-size: 16px;
+	padding-right: 10px;;
+	display:inline-block;
+}
+.top>ul>li:hover {
+	color: red;
+}
+.wrapper {
+	position: relative;
+}
+
+.power {
+	position:absolute;
+	width: 20px;
+	height: 400px;	
+	top: 6%;
+	left: 10%;
+	z-index: 10;
+}
+.power>img {
+	height: 100%;
+}
+.banner {
+	overflow: hidden;
+	position: relative;
+	height: 450px;
+}
+ul.banner-slide {
+	width: 400%;
+	height: 100%;
+	font-size: 0;
+	transition: all 0.6s;
+}
+ul.banner-slide>li {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+ul.banner-slide>li>a { display: block; }
+ul.banner-slide>li>a>img { width: 100%;
+	height: 450px;
+}
+ul.banner-indicators {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform:translateX(-50%);
+}
+ul.banner-indicators>li {
+	float: left;
+	width: 10px;
+	height:10px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+ul.banner-indicators>li:hover {
+	width: 40px;
+	height: 10px;
+	border-radius: 3px;
+	background-color: red;
+}
+.banner-btn-prev,.banner-btn-next {
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 100%;
+	transform: translateY(-50%);
+	opacity: 0;
+	transition: all 0.6s;
+}
+
+.banner-btn-prev {
+	left: 0;	
+}
+.banner-btn-prev>div {
+	color: white;	
+	font-size: 30px;
+	margin:150px auto;
+	text-align: center;
+}
+.banner-btn-next {
+	right: 0;	
+}
+.banner-btn-next>div {
+	color: white;	
+	font-size: 30px;
+	margin:150px auto;
+	text-align: center;
+}
+.banner-btn-prev:hover,.banner-btn-next:hover {
+	opacity: 0.5;
+}
+/* .wrapper {
+	
+	border-radius: 10px;
+}
+.wrapper>img {
+	display: none;
+} */
+.process {}
+.process>img {
+	width: 1074px;
+}
+.phone {
+	overflow: hidden;
+	position: relative;
+	
+}
+ul.phone-slide1 {
+	width: 400%;
+	transition: all 0.6s;
+}
+ul.phone-slide1>li {
+	width: 25%;
+	float: left;
+	
+}
+ul.phone-slide1>li>a { display: block; font-size: 0}
+ul.phone-slide1>li>a>img { width: 100%;}
+ul.phone-indicators1 {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform:translateX(-50%);
+}
+ul.phone-indicators1>li {
+	float: left;
+	width: 20px;
+	height:20px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+ul.phone-indicators1>li:hover {
+	background-color: red;
+}
+.phone-btn-preve,.phone-btn-nextx {
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	transform: translateY(-50%);
+	background-color: rgba(0,0,0,0.3);
+	transition: all 0.6s;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: center;
+}
+.phone-btn-preve {
+	left: 20px;
+}
+.phone-btn-preve>div {
+	margin: 8px auto;
+	color: white;
+	font-size: 26px;
+}
+.phone-btn-nextx {
+	right: 20px;
+}
+.phone-btn-nextx>div {
+	margin: 6px auto;
+	color: white;
+	font-size: 26px;
+}
+.phone-btn-preve:hover,.phone-btn-nextx:hover {
+	background-color: rgb(0,0,0,0.6);
+}
+.list {}
+.list>ul {
+	font-size: 0;
+	margin-right: -5px;
+}
+.list>ul>li {
+	width: 200px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-right: 5px;
+}
+.list>ul>li>a {
+	display: block;
+	font-size: 12px;
+	text-align: center;	
+}
+.list>ul>li>a>img {
+	width: 100%;
+}
+.list>ul>li>ul.item {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.list>ul>li>ul.item>li {
+	display: inline-block;
+	padding-right: 10px;
+	margin-left: 10px;
+}
+.list>ul>li>ul.item>li>a {
+	font-size: 12px;	
+}
+.list>ul>li>ul.item>li:nth-child(3)>a {
+	color: #FF0000;
+}
+.touch {
+	position:fixed;	
+	right: 10px;
+	bottom: 20%;	
+	border-radius: 10px;
+	width: 70px;
+	height: 150px;
+}
+.touch>ul {
+	margin: 5px 5px;
+	width: 100%;
+	height: 100%;
+}
+.touch>ul>li {
+	width: 100%;
+	height: 30%;	
+	text-align: center;
+	position: relative;
+	margin-bottom: 20px;	
+}
+.touch>ul>li>i {
+	position: absolute;
+	right: 20%;
+	font-size: 30px;
+	color: #cccccc;	
+	
+}
+.touch>ul>li>span {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	font-size: 15px;
+	width: 80px;
+	height: 30px;
+}
+.touch>ul>li:hover,.touch>ul>li>i:hover {	
+	color: red;
+}
+.footer {
+	margin-top: 30px;
+}

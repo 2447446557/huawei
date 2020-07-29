@@ -1,0 +1,271 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F1F1F1;
+}
+
+.background-color {
+	width: 100%;
+	background-color: #333;
+	min-width: 998px;
+}
+.containers {
+	/* width: 998px; */
+	margin: 0 auto;
+	min-width: 998px;
+}
+.header {
+	height: 67px;
+	width: 100%;
+	background-color: #333;
+	position: relative;
+	width: 998px;
+	margin: 0 auto;
+}
+.logo img {
+	width: 143px;
+	margin-top: 17px;
+	float: left;
+	padding-left: 20px;
+	
+}
+.website-name {
+	font-size: 18px;
+	float: left;
+	color: #FFFFFF;
+	margin-top: 23px;
+	margin-left: 25px;
+	border-left: 2px solid #d7d7d7;
+	padding-left: 19px;
+}
+.register-content {
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 960px;
+}
+.reg-detail {
+	background-color: #fff;
+	padding: 30px 270px;
+	font-size: 14px;
+	color: #333;
+}
+.phone-wrap {
+	display: inline-block;
+	background: #B40707;
+}
+.registerTitle{
+
+}
+.mianTitle {
+	font-size: 24px;
+	text-align: center;
+	color: #333333;
+}
+
+.subTitle {
+	font-size: 16px;
+	text-align: center;
+	color: #999999;
+	margin-top:12px;
+	margin-bottom: 30px;
+}
+
+.input-container {
+	margin-top: 20px;
+	background: #f7f7f7;
+	height: 42px;
+	border: 1px solid #d9d9d9;
+	border-radius: 21px;
+	position: relative;
+	width: 420px;
+	
+
+}
+.input-container .input-left {
+	text-align: center;
+	width: 90px;
+	height: 100%;
+	border-right: 1px solid #d9d9d9;
+	padding: 0 16px;
+	line-height: 42px;
+	float: left;
+}
+ .input-container .input-content {
+	height: 100%;
+	margin-left: 123px;
+	overflow: visible;
+	
+}
+.input-menu {
+	cursor: pointer;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 44px;
+	float: left;
+}
+.dropMenu {
+	line-height: 42px;
+	
+}
+/* .input-content input {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	padding: 0 16px;
+	background: transparent;
+	
+} */
+/* .dropMenu .select-text {
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 16px;
+	
+} */
+/* .select-ico {
+	right: 16px;
+	position: absolute;
+	top: 17px;
+	width: 12px;
+	height: 6px;
+	background-image: url(../images/register/triangle_green.png);
+	margin-left: 8px;
+	display: inline-block;
+	vertical-align: middle;
+	
+} */
+/* .droplist {
+	position: absolute;
+	min-width: 136px;
+	max-width: 290px;
+	width: 290px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 2px 2px #eee;
+	z-index: 1000;
+	overflow: hidden;
+	top: 40px;
+	font-size: 12px;
+	color: #333;
+} */
+/* .droplist .list-container {
+	overflow-y: auto;
+ 	height: 256px; 
+ 	padding-top: 6px;
+} */ 
+/* .droplist li {
+	padding: 13px 16px;
+	overflow: hidden;
+	line-height: 1;
+} */
+.country {
+	margin-left: 10px;
+	border: none;
+	outline: none;
+	padding: 0 210px 0 0;
+	background-color: #f4f4f4;
+	font-size: 15px;
+	cursor: pointer;
+}
+.phone {
+	border: none;
+	outline: none;
+	background-color: #f4f4f4;
+	font-size: 15px;
+	cursor: pointer;
+}
+.input-right {
+	height: 100%;
+	padding-right: 16px;
+	line-height: 42px;
+}
+.text-class {
+	position: absolute;
+	float: left;
+	cursor: text;
+
+}
+.inputNumber {
+	background: transparent;
+    font-size: 14px;
+	border: none;
+    margin-left: 10px;
+	height: 40px;
+	width: 260px;
+}
+.inputpassword {
+	background: transparent;
+    font-size: 14px;
+	border: none;
+    margin-left: 10px;
+	height: 40px;
+	width: 260px;
+}
+.years {
+	margin-left: 10px;
+	border: none;
+	outline: none;
+	background-color: #f4f4f4;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.year {
+	border: none;
+	outline: none;
+	background-color: #f4f4f4;
+	font-size: 15px;
+	cursor: pointer;
+}
+.btn-register{
+	margin-top: 30px;
+	text-align: center;
+	
+}
+.btn-reg {
+	background-color: #b40707;
+    border: 0;
+    color: #fff;
+	cursor: pointer;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+}
+.wp-ft {
+	width: 100%;
+	margin: 0 auto;
+	background: #f2f2f2;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.login-foot {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 30px;
+	border-top: 1px solid #D7D7D7;
+
+}
+.footer-wrapper {
+	font-size: 12px;
+	text-align: center;
+	color: #999;
+	padding: 0 10px;
+	
+}
+.footer-wrapper a {
+	font-size: 12px;
+	color: #999;
+}
+.text-align {
+	text-align: center;
+	line-height: 12px;
+	height: 12px;
+	margin-top: 10px;
+	font-size: 12px;
+} 

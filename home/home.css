@@ -1,0 +1,719 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.w-big {
+	min-width: 1200px;
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+.tonglan {
+	min-width: 1200px;
+	width: 100%;
+}
+.grzx:hover {
+	color: #CB242B;
+}
+.banner {
+	overflow: hidden; 
+	position: relative;
+}
+ul.banner-slide {
+	width: 600%;
+	transition: all 0.5s;
+}
+ul.banner-slide>li {
+	width: 16.666666%; 
+	float: left;
+	position: relative;
+}
+ul.banner-slide>li>a {
+	display: block; 
+	font-size: 0;
+}
+ul.banner-slide>li>a>img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+/* 轮播图中间小箭头 */
+.banner-prev,.banner-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	background-color: rgba(0,0,0,0.3);
+}
+.banner-prev:hover,.banner-next:hover {
+	background-color: rgba(0,0,0,0.6);
+	cursor: pointer;
+}
+.banner-prev {
+	left: 400px;
+}
+.banner-next {
+	right: 200px;
+}
+.banner-prev>i,.banner-next>i {
+	font-size: 20px;
+	line-height: 60px;
+	padding-left: 17px;
+	color: white;
+}
+/* banner的indicators样式 小圆点*/
+.banner-indicators {
+	position: absolute;
+	bottom: 40px;
+	right: 150px;
+}
+.banner-indicators>li {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 0 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.banner-indicators>li::before {
+	content: '';
+	display: block;
+	width: 0;
+	height: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+.banner-indicators>li.active::before {
+	width: 100%;
+}
+/* 文字 */
+.banner>.banner-wrapper {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.main {
+	font-size: 0;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 12px 0;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.9);
+}
+.main>li {
+	padding: 0 20px;
+}
+.main>li>a {
+	color: #A48484;
+	display: block;
+	padding: 10px 0;
+	font-size: 15px;
+}
+/* 二级菜单 */
+.content-nav {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	writing-mode: vertical-lr;
+	font-size: 0;
+	border-radius: 0 10px 10px 0;
+	padding-right: 10px;
+	background-color: white;
+	display: none;
+} 
+.content-nav>li {
+	width: 250px;
+	height: 25%;
+	display: inline-block;
+	box-sizing: border-box;
+	writing-mode: horizontal-tb;
+	padding: 20px 20px;
+}
+.content-nav>li>a {
+	display: block;
+	width: 100%;
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+.content-nav>li>a>span {
+	font-size: 14px;
+	padding-left: 10px;
+	color: #666666;
+}
+.content-nav>li>a>img {
+	width: 22%;
+}
+.content-nav>li>a>* {
+	text-align: center;
+	vertical-align: middle;
+}
+.main>li:nth-child(2)>.content-nav>li>a>span,.main>li:nth-child(9)>.content-nav>li>a>span {
+	font-size: 13px;
+}
+/* 鼠标滑过样式 */
+ul.content-nav>li>a:hover {
+	background-color: #F6F6F6;
+	border-radius: 8px;
+	box-shadow: 0 0 4px 2px #E9E9E9;
+}
+.main>li:hover {
+	cursor: pointer;
+	background-color: white;
+}
+.main>li>a:hover {
+	color: #CB242B;
+}
+.main:hover {
+	border-radius: 10px 0 0 10px;
+}
+.main>li:hover>ul.content-nav {
+	display: block;
+}
+.main>li:first-child:hover {
+	border-radius: 10px 0 0 0;
+}
+.main>li:last-child:hover {
+	border-radius: 0 0 0 10px;
+}
+
+/* 下边登录部分 */
+.login {
+	height: 100px;
+	border-radius: 10px; 
+	box-shadow: 0 0 4px 5px #F7F7F7;
+}
+.login-lft {
+	float: left;
+	width: 20%;
+	margin-top: 15px;
+	margin-left: 20px;
+	border-right: 1px solid #CCCCCC;
+}
+.login-lft>img {
+	float: left;
+	width: 22%;
+	margin-top: 5px;
+}
+.login-wrapper,.a-wrapper {
+	float: left;
+	margin: 5px 15px;
+}
+.login-wrapper>a {
+	color: black;
+	font-size: 14px;
+	margin: 0 3px;
+}
+.login-wrapper>span {
+	color: #666666;
+	font-size: 14px;
+}
+.a-one{
+	color: #DE5B60;
+	border: 1px solid #DE5B60;
+	border-radius: 5px;
+	padding: 2px 5px;
+	font-size: 13px;
+}
+.a-two {
+	color: #FDDB91;
+	border: 1px solid #595454;
+	border-radius: 5px;
+	padding: 2px 5px;
+	font-size: 13px;
+	margin-left: 10px;
+	background-color: #595454;
+}
+/* 鼠标滑过 */
+.a-wrapper>.a-one:hover {
+	background-color: #DE5B60;
+	color: white;
+}
+.login a:hover {
+	color: #DE5B60;
+}
+/* 中间 */
+.login-ctr {
+	float: left;
+	width: 55%;
+}
+.ctr-wrapper {
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+.ctr-wrapper>li {
+	float: left;
+	width: 16.666666%;
+}
+.ctr-wrapper>li>img {
+	width: 45%;
+	text-align: center;
+}
+.ctr-wrapper>li>a {
+	display: block;
+	color: #777777;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.login-rgt {
+	float: right;
+	width: 20%;
+	height: 100%;
+	border-left: 1px solid #CCCCCC;
+}
+.notice-wrapper {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+.notice-wrapper>span{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	color: #777777;
+	font-weight: bold;
+	display: inline-block;
+}
+.notice {
+	display: inline-block;
+	height: 100%;
+	margin-left: 50px;
+	transition: all 0.3s;
+}
+.notice>li {
+	height: 100%;
+}
+.notice>li>a {
+	height: 100%;
+	display: block;
+	line-height: 50px;
+	font-size: 13px;
+	color: #777777;
+	text-indent: 1em;
+}
+.rgt-btm {
+	width: 100%;
+}
+.rgt-btm>li {
+	float: left;
+	padding: 10px 0;
+}
+.rgt-btm>li>img {
+	width: 30%;
+	vertical-align: middle;
+}
+.rgt-btm>li>a {
+	color: #777777;
+	font-size: 13px;
+}
+
+/* part1部分 */
+.part1>ul {
+	width: 100%;
+	font-size: 0;
+	margin-right: -10px;
+	margin-top: 20px;
+}
+.part1>ul>li {
+	display: inline-block;
+	width: 25%;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.part1>ul>li>a {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+.part1>ul>li>a>img {
+	width: 100%;
+	border-radius: 10px;
+}
+/* 鼠标滑过样式 */
+.part1>ul>li>a:hover {
+	box-shadow: 0 0 8px 2px #E9E9E9;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+/* 第二部分 */
+.part2>span {
+	display: inline-block;
+	font-size: 26px;
+	margin-top: 30px;
+}
+.part2>div {
+	width: 100%;
+	margin-top: 8px;
+}
+.part2-big {
+	width: 230px;
+	float: left;
+}
+.part2-big>img {
+	width: 100%;
+	font-size: 0;
+	border-radius: 10px;
+}
+/* 小图片 */
+.part2-wrapper {
+	width: 960px;
+	float: right;
+	margin-left: 10px;
+}
+.part2small {
+	font-size: 0;
+	margin-right: -10px;
+	margin-bottom: -10px;
+}
+.part2small>li {
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.part2small>li>a {
+	display: block;
+	width: 100%;
+	background-color: #F9F9F9;
+	border-radius: 10px;
+	text-align: center;
+}
+.part2small>li>a>img {
+	width: 70%;
+	padding-top: 30px;
+}
+.part2small>li>a>h4{
+	font-size: 15px;
+	font-weight: 500;
+	margin: 10px 0 5px 0;
+}
+.part2small>li>a>span{
+	color: #777777;
+	font-size: 13px;
+	display: inline-block;
+	padding-bottom: 8px;
+}
+.part2small>li>a>p {
+	font-size: 14px;
+	color: #CB242B;
+	padding-bottom: 20px;
+}
+/* 鼠标滑过样式 */
+.part2-big>img:hover,.part2small>li>a:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px 3px #F5F2F0;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+/* 第三部分 */
+.part3>span {
+	font-size: 26px;
+	display: inline-block;
+	margin: 30px 0 10px 0;
+}
+.part3-wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.supreme {
+	width: 100%;
+	font-size: 0;
+	white-space: nowrap;
+	transition: all 0.5s;
+}
+.supreme>li {
+	width: 20%;
+	box-sizing: border-box;
+	padding: 0 5px;
+	padding-top: 5px;
+	display: inline-block;
+}
+.supreme>li>a {
+	display: block;
+	background-color: #F3F3F3;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 3px 1px #E9E9E9;
+}
+.supreme>li>a>div {
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.supreme>li>a>div>img {
+	width: 70%;
+	padding-top: 20px;
+}
+.supreme>li>a>span {
+	font-size: 13px;
+	padding: 10px;
+	display: inline-block;
+	color: #969896;
+}
+.supreme>li>h4{
+	font-size: 14px;
+	font-weight: 500;
+	margin: 10px 0 5px 0;
+	text-align: center;
+	color: #646464;
+	cursor: pointer;
+}
+.supreme>li>p {
+	font-size: 14px;
+	color: #CB242B;
+	padding-bottom: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.part3-wrapper .next2 {
+	position: absolute;
+	top: 25%;
+	right: 4px;
+	width: 30px;
+	height: 70px;
+	background-color: #F0F0F0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.part3-wrapper .prev2 {
+	position: absolute;
+	top: 25%;
+	left: 4px;
+	width: 30px;
+	height: 70px;
+	background-color: #F0F0F0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.part3-wrapper .icon-1201youjiantou {
+	position: absolute;
+	top: 25%;
+	right: 10px;
+	margin-top: 26px;
+	cursor: pointer;
+}
+.part3-wrapper .icon--left-arrow {
+	position: absolute;
+	top: 25%;
+	left: 10px;
+	margin-top: 26px;
+	font-weight: 700;
+	font-size: 14px;
+	cursor: pointer;
+}
+/* 滑过样式 */
+.part3-wrapper .next2:hover{
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.2);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.part3-wrapper .prev2:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.2);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.part3-wrapper>.supreme>li:hover>a {
+	cursor: pointer;
+	box-shadow: 0 0 10px 2px #E9E9E9;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+/* part4 */
+.part4  {
+	overflow: hidden;
+	position: relative;
+}
+.banner2-img {
+	width: 500%;
+	transition: all 0.5s;
+}
+.banner2-img>li {
+	float: left;
+	width: 20%;
+}
+.banner2-img>li>a {
+	display: block;
+	font-size: 0;
+}
+.banner2-img img {
+	width: 100%;
+	border-radius: 10px;
+}
+.banner2-btn {
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+}
+.banner2-btn>li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 8px;
+	border: 1px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.banner2-btn>li::before {
+	content: '';
+	display: block;
+	width: 0;
+	height: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+.banner2-btn>li.show::before {
+	width: 100%;
+}
+/* part5 */
+.part5>span {
+	float: left;
+	margin: 30px 20px 10px 0;
+	font-size: 26px;
+}
+.part5>.rongyao {
+	margin-right: -20px;
+	padding-top: 36px;
+}
+.part5>.rongyao>li {
+	float: left;
+	padding-right: 20px;
+}
+.part5>.rongyao>li>a {
+	font-size: 15px;
+	color: #999999;
+}
+.part5 .more {
+	float: right;
+	padding-right: 20px;
+	padding-top: 36px;
+}
+.part5 .more>a {
+	color: #575757;
+}
+.part5 .more>i {
+	font-size: 13px;
+}
+.rongyao {
+	width: 100%;
+}
+.rongyao-nav-main {
+	font-size: 0;
+	margin-right: -10px;
+	margin-bottom: -10px;
+}
+.rongyao-nav-main>li {
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.rongyao-nav-main>li>a {
+	display: block;
+	width: 100%;
+	background-color: #F9F9F9;
+	border-radius: 10px;
+	text-align: center;
+}
+.rongyao-nav-main>li>a>img {
+	width: 70%;
+	padding-top: 30px;
+}
+.rongyao-nav-main>li:first-child>a>div {
+	display: none;
+}
+.rongyao-nav-main>li:first-child>a>img {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 0;
+}
+.rongyao-nav-main>li>a>div>h4{
+	font-size: 14px;
+	font-weight: 500;
+	margin: 12px 0 5px 0;
+}
+.rongyao-nav-main>li>a>div>span{
+	color: #777777;
+	font-size: 12px;
+	display: inline-block;
+	padding-bottom: 8px;
+}
+.rongyao-nav-main>li>a>div>p {
+	font-size: 13px;
+	color: #CB242B;
+	padding-bottom: 25px;
+}
+/* 鼠标滑过样式 */
+.rongyao-nav-main>li>a:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px 2px #E9E9E9;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+/* 鼠标滑过样式 */
+.part5>.rongyao>li>a:hover,.part5 .more>span:hover {
+	color: #CB242B;
+	cursor: pointer;
+}
+/* 页脚 */
+.last>img {
+	width: 100%;
+	border-radius: 15px;
+	margin: 30px 0;
+}
+/* 右边固定 */
+.fix-nav {
+	position: fixed;
+	bottom: 6%;
+	right: 10px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+.fix-nav>li {
+	padding: 5px 5px;
+	text-align: center;
+	position: relative;
+}
+.fix-nav>li>a {
+	font-size: 20px;
+	color: #CCCCCC;
+	cursor: pointer;
+	font-weight: 100;
+}
+.fix-nav>li>a.icon-Shopping {
+	font-size: 25px;       /* 因为这张图片比其他的小,专门给他一个样式 */
+}
+.fix-nav>li>span {
+	position: absolute;
+	top: 0;
+	right: 40px;
+	font-size: 13px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;    /* 用垂直居中那行代码不生效,所以用了这个 */
+	border-radius: 10px;
+	background-color: white;
+	display: none;
+}
+/* 鼠标滑过出现 */
+.fix-nav>li:hover>span {
+	display: block;
+	box-shadow: 0 0 4px 2px #E9E9E9;
+}
+.fix-nav>li:hover>a {
+	color: black;
+}

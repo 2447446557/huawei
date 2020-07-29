@@ -1,0 +1,420 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.tonglan {
+	min-width: 1200px; 
+	width: 100%;
+}
+/* 整个页面的背景颜色 */
+.whole {
+	background-color: #F5F5F5;
+}
+.site {
+	font-size: 12px;
+	color: #666;
+	padding: 15px 0;
+}
+.site>a {
+	color: #666;
+}
+/* 页面左右的布局 */
+.population {
+	background-color: #F5F5F5;
+}
+/* 左半边菜单（竖向菜单） */
+.portrait-wapper {
+	background-color: #fff;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	float: left;
+	margin-right: 18px;
+}
+.portrait-title {
+	padding: 15px 70px 15px 30px;
+	text-align: center;
+}
+.portrait-title>a {}
+.portrait-title>a>span {
+	font-size: 18px;
+	color: #cf0a2c;
+}
+ul.portrait-list {}
+li.portrait-list-one {
+	border-top: 1px solid #F5F5F5;
+	padding: 16px 0 0 30px;
+}
+li.portrait-list-one>h3 {
+	font-size: 14px;
+}
+li.portrait-list-one>h3>span {}
+li.portrait-list-one>h3>a {
+	color: #000;
+}
+li.portrait-list-two {
+	padding-left: 30px;
+}
+li.portrait-list-two>a {
+	display: block;
+	font-size: 14px;
+}
+li.portrait-list-two>a>span {
+	display: inline-block;
+	color: #777;
+	padding:8px  0;
+}
+li.portrait-list-two>a>span:hover {
+	color: #cf0a2c;
+}
+/* 右半边菜单（横向菜单） */
+.transverse-wapper {
+	overflow: hidden;
+}
+/* 上面部分优惠券详情 */
+.coupon-details {
+	background-color: #fff;
+	border-radius: 13px;
+}
+/* 头像、详细信息 */
+.head-portrait-wrapper {
+	width: 384px;
+	padding:0 0 30px 49px;
+	float: left;
+}
+/* 头像 */
+span.head-portrait {
+	float: left;
+	margin-top: 35px;
+}
+span.head-portrait>a {}
+span.head-portrait>a>img {
+	border-radius: 50%;
+}
+/* 个人详细（姓名、等级、权益） */
+span.introduction-wrapper {
+	margin-top: 39px;
+	margin-left: 40px;
+	float: left;
+}
+span.introduction-wrapper>a.name {
+	font-size: 18px;
+	color: #000000;
+}
+span.introduction-wrapper>a.grade {}
+span.introduction-wrapper>a.grade>p.kongbai {}
+span.introduction-wrapper>a.grade>p.count {
+	font-size: 12px;
+	padding: 10px 0 15px 0;
+	color: #000000;
+}
+span.introduction-wrapper>span.member {
+	font-size: 13px;
+}
+span.introduction-wrapper>span.member>a {
+	padding: 5px 15px;
+	border: 1px solid #595454;
+	border-radius: 5px;
+	margin-right: 12px;
+}
+span.introduction-wrapper>span.member>a.membership-interests {
+	color: #fde4b3;
+	background-color: #595454;
+}
+span.introduction-wrapper>span.member>a.account-center {
+	color: #000000;
+	
+}
+/* 优惠券详情右半部分 */
+ul.coupon-details-right {
+	overflow: hidden;
+	padding: 35px 20px;
+}
+ul.coupon-details-right>li {
+	float: left;
+	padding: 0 39px;
+	text-align: center;
+}
+ul.coupon-details-right>li>p.number {
+	font-size: 28px;	
+}
+ul.coupon-details-right>li>p>a {}
+ul.coupon-details-right>li>p.name {
+	padding: 6px 0;	
+}
+ul.coupon-details-right>li>p.name>span {}
+ul.coupon-details-right>li>span>a {
+	border: 1px solid #595454;
+	font-size: 12px;
+	padding: 1px 8px;
+	border-radius: 10px;	
+}
+/* 中间部分 */
+.center-wapper {
+	width: 652px;
+	float: left;
+	margin-right: 18px;
+}
+/* 我的订单 */
+.my-order-wapper{
+	width: 652px;
+	background-color: #fff;
+	margin-top: 18px;
+	display: inline-block;
+	border-radius: 10px;
+}
+span.my-order-title {}
+span.my-order-title>h3 {
+	display: inline-block;
+	padding: 20px;
+	color: #303133;
+	font-size: 16px;
+}
+span.my-order-title>a {
+	float: right;
+	padding: 20px;
+	color: #777;
+	font-size: 14px;
+}
+/* 订单详情(待付款、待收货、待评价..) */
+.order-details-wapper {}
+.order-details-wapper>ul {
+	display: inline-block;
+	padding: 9px 0 26px 39px;
+	white-space: nowrap;
+	border-bottom: 1px solid #E6E6E6;
+	overflow: hidden;
+}
+.order-details-wapper>ul>li {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 77px;
+}
+li.pending-payment,li.unreceived-goods,li.not-evaluated,li.returned-goods {}
+.order-details-wapper>ul>li>a {
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+}
+.order-details-wapper>ul>li>a:hover {
+	color: #CF0A2C;
+}
+.order-details-wapper>ul>li>a>span.iconfont {
+	font-size: 35px;
+	color: #A4A4A4;
+	display: block;
+	margin: 10px 0;
+}
+.recent-orders {
+	text-align: center;
+	padding: 100px 50px;
+	font-size: 14px;
+	color: #A4A4A4;
+}
+.recent-orders>i.iconfont {
+	font-size: 60px;
+	color: #A4A4A4;
+	display: block;
+	padding-bottom: 15px;
+}
+.recent-orders>p.qianwang {
+	display: inline-block;
+}
+.recent-orders>a {
+	display: inline-block;
+	color: #CF0A2C;
+}
+.recent-orders>p.xuangou {
+	display: inline-block;
+}
+/* 最近预览 */
+.recent-preview-wapper {
+	margin-top: 20px;
+	background-color: #fff;
+	width: 652px;
+	border-radius: 10px;
+}
+span.recent-preview-title {
+	border-bottom: 1px solid #F2F2F2;
+}
+span.recent-preview-title>h3 {
+	padding: 20px 0;
+	border-bottom: 1px solid #F2F2F2;
+	text-indent: 1em;
+	font-size: 16px;
+}
+.recent-preview-carousel-wapper {}
+.recent-preview-carousel {
+	overflow: hidden;
+}
+.recent-preview-carousel>ul {
+	width: 100%;
+	white-space: nowrap;
+	transition: all 0.6s;
+	font-size: 0;
+}
+.recent-preview-carousel>ul>li {
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 14px;
+	width: 25%;
+	border-right: 1px solid #F2F2F2;
+	text-align: center;
+}
+.recent-preview-carousel>ul>li>a {
+}
+.recent-preview-carousel>ul>li>a>span {}
+.recent-preview-carousel>ul>li>a>span>img {
+	width: 70%;
+	padding: 20px 0 10px 0;
+}
+p.recent-preview-name {
+	font-size: 13px;
+	color: #3a3a3a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 10px 0;
+}
+p.recent-preview-price {
+	color: #CF0A2C;
+}
+.recent-preview-btn>input {
+	width: 15px;
+	height: 50px;
+	background-color: #A4A4A4;
+	cursor: pointer;
+	transform: translateY(-150px);
+}
+.recent-preview-btn>input.recent-preview-btn-prev {
+	float: left;
+}	
+.recent-preview-btn>input.recent-preview-btn-next {
+	float: right;
+}	
+/* 为你推荐 */
+.recommended-for-you-wrapper {
+	width: 652px;
+	background-color: #fff;
+	font-size: 0;
+	border-radius: 10px;
+	margin-top: 18px;
+}
+.recommended-for-you-title {}
+.recommended-for-you-title>p {
+	font-size: 16px;
+	padding: 20px 0 10px 0;
+	text-indent: 1em;
+}
+.recommended-for-you-photo {}
+.recommended-for-you-photo>ul {}
+.recommended-for-you-photo>ul>li {
+	text-align: center;
+	padding: 10px 20px;
+}
+.recommended-for-you-photo>ul>li>a {}
+.recommended-for-you-photo>ul>li>a>img {
+	width: 100%;
+	border-radius: 10px;
+}
+/* 右边部分 */
+.right-wrapper {
+/* 	width: 340px;
+	height: 600px;
+	float: right;
+	margin-left: 16px; */
+	margin-top: 18px;
+	overflow: hidden;
+}
+.my-news {
+	float: left;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.my-news>span {
+	display: block;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+.my-news>div {
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.my-news>div>p {
+	display: inline-block;
+	text-align: center;
+}
+.my-news>div>p>i {
+	font-size: 30px;
+	color: #777777;
+}
+.my-news>div>p.my-news-arrow>i {
+	padding: 0 0 0 30px;
+}
+/* 以旧换新banner图 */
+p.right-one {}
+p.right-one>a {}
+p.right-one>a>img {
+	width: 100%;
+	border-radius: 10px;
+	margin: 18px 0;
+}
+/* 我的服务 */
+.my-service-wapper {
+	background-color: #fff;
+	border-radius: 10px;
+	padding-top: 20px;
+}
+.my-service-wapper>span {
+	padding: 20px;
+}
+.my-service {}
+.my-service>ul {
+	width: 100%;
+	font-size: 0;
+	padding: 20px 0;
+	
+}
+.my-service>ul>li {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+}
+.my-service>ul>li>a {}
+.my-service>ul>li>a>img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.my-service>ul>li>a>span {
+	font-size: 14px;
+}
+/* 新人见面礼banner图 */
+p.right-two {}
+p.right-two>a {}
+p.right-two>a>img {
+	width: 100%;
+	border-radius: 10px;
+	margin: 18px 0;
+}
+/* 华为移动生活 */
+.life-wapper {
+	width: 100%;
+	background-color: #fff;
+	padding-top: 18px;
+	border-radius: 10px;
+}
+.life-wapper>span {
+	padding-left: 10px;
+}
+.life-banner {}
+.life-banner>ul {
+	padding: 10px;
+}
+.life-banner>ul>li {}
+.life-banner>ul>li>a {}
+.life-banner>ul>li>a>img {
+	width: 100%;
+	padding: 5px 10px;
+}

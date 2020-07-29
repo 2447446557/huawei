@@ -1,0 +1,283 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.w-big {
+	min-width: 1200px;
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+.tonglan {
+	min-width: 1200px;
+	width: 100%;
+}
+body {
+	background-color: #92BDA2;
+}
+.advert-img {
+	position: relative;
+	height: 734px;
+	overflow: hidden;
+}
+.advert-img>a>.advert-big-img{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+.advert-img>img {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+}
+ul.part1-wrapper {
+	position: absolute;
+	top: 20px;
+	left: 45%;
+}
+ul.part1-wrapper>li {
+	float: left;
+	padding-left: 20px;
+}
+ul.part1-wrapper>li>a {
+	display: block;
+	color: white;
+}
+ul.advert-rgt {
+	position: absolute;
+	top: 20px;
+	right: 20%;
+}
+ul.advert-rgt>li {
+	float: left;
+	padding-left: 6px;
+}
+ul.advert-rgt>li:nth-child(3) {
+	color: white;
+	font-size: 14px;
+	font-weight: 200;
+	margin-top: 1px;
+}
+ul.advert-rgt>li>a {
+	color: white;
+}
+/* 鼠标滑过 */
+ul.part1-wrapper>li>a:hover {
+	color: black;
+	text-decoration: underline;
+}
+ul.advert-rgt>li>a:hover {
+	color: black;
+}
+/* 固定 */
+div.fixed {
+	position: relative;
+	height: 80px;
+	background-color: #6D9C6E;
+	overflow: hidden;
+}
+.fixed.fix {
+	position: fixed;
+	top: 0;
+}
+.fixed>ul {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+.fixed>ul>li {
+	float: left;
+	width: 20%;
+	padding: 27px 0;
+}
+.fixed>ul>li>a {
+	font-size: 22px;
+	color: #FFFDFE;
+	font-family: '宋体';
+	font-weight: 800;
+}
+.part2-wrapper {
+	position: relative;
+	height: 542px;
+	overflow: hidden;
+}
+.part2-wrapper>img {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	font-size: 0;
+	background-color: #92BDA2;
+}
+/* 第三部分 */
+.part3-wrapper {
+	position: relative;
+	height: 90px;
+	overflow: hidden;
+}
+.part3-wrapper>img {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	font-size: 0;
+	background-color: #92BDA2;
+}
+.part4-wrapper {
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+	background-color: #92BDA2;
+}
+.part4-wrapper>.part4-1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1200px;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+.part5-phone-wrapper {
+	margin-top: 10px; 
+}
+
+.part5-phone-wrapper ul {
+	margin-right: -10px;
+	font-size: 0;
+}
+.part5-phone-wrapper ul>li {
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.part5-phone-wrapper a {
+	display: block;
+	width: 100%;
+}
+.part5-phone-wrapper a>img {
+	width: 100%;
+	height: 290px;
+}
+.part5-content {
+	background-color: white;
+	height: 130px;
+	text-align: center;
+	padding-top: 20px;
+}
+.part5-content>h4 {
+	font-size: 22px;
+	font-weight: 500;
+	color: black;
+}
+.part5-content>span {
+	font-size: 15px;
+	color: #666666;
+	display: inline-block;
+	padding: 10px 0;
+}
+.part5-content>p {
+	color: white;
+	font-size: 17px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 15px;
+	margin: 10px 85px;
+	background-color: #222222;
+}
+.part6-wrapper {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+.part6-img1,.part6-img2 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.part6-img1 {
+	top: 0;
+}
+.part6-img2 {
+	top: 130px;
+}
+.part6-bigimg {
+	margin-top: 40px;
+	height: 200px;
+	background-image: url(../images/advert/part6.jpg);
+	background-position: center center;
+}
+
+/* 页脚 */
+.advert-footer {
+	position: relative;
+	height: 550px;
+	overflow: hidden;
+	background-color: #92BDA2;
+}
+.advert-footer .footer-1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+.advert-footer>.footer-2 {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+.advert-footer>.footer-3 {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+/* 右边固定 */
+.fix-nav {
+	position: fixed;
+	bottom: 6%;
+	right: 10px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+.fix-nav>li {
+	padding: 5px 5px;
+	text-align: center;
+	position: relative;
+}
+.fix-nav>li>i {
+	font-size: 25px;
+	color: #CCCCCC;
+	cursor: pointer;
+}
+.fix-nav>li>i.icon-Shopping {
+	font-size: 30px;       /* 因为这张图片比其他的小,专门给他一个样式 */
+}
+.fix-nav>li>span {
+	position: absolute;
+	top: 0;
+	right: 40px;
+	font-size: 13px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;    /* 用垂直居中那行代码不生效,所以用了这个 */
+	border-radius: 10px;
+	background-color: white;
+	display: none;
+}
+/* 鼠标滑过出现 */
+.fix-nav>li:hover>span {
+	display: block;
+	box-shadow: 0 0 4px 2px #E9E9E9;
+}

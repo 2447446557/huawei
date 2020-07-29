@@ -1,0 +1,249 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.tonglan {
+	min-width: 1200px; 
+	width: 100%;
+}
+.region-picker-wrapper {
+	width: 598px;
+	height: 35px;
+	position: relative;
+}
+/* 整个页面的背景颜色 */
+.whole {}
+.site {
+	font-size: 12px;
+	color: #666;
+	padding: 15px 0;
+}
+.site>a {
+	color: #666;
+}
+/* 页面左右的布局 */
+.portrait {
+	height: 834px;
+	margin-bottom: 150px;
+}
+/* 左半边菜单（竖向菜单） */
+.portrait-wapper {
+	background-color: #fff;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #f5f5f5;
+	margin-right: 70px;
+	float: left;
+}
+.portrait-title {
+	padding: 15px 70px 15px 30px;
+	text-align: center;
+}
+.portrait-title>a {}
+.portrait-title>a>span {
+	font-size: 18px;
+	color: #cf0a2c;
+}
+ul.portrait-list {}
+li.portrait-list-one {
+	border-top: 1px solid #F5F5F5;
+	padding: 16px 0 0 30px;
+}
+li.portrait-list-one>h3 {
+	font-size: 14px;
+}
+li.portrait-list-one>h3>span {}
+li.portrait-list-one>h3>a {
+	color: #000;
+}
+li.portrait-list-two {
+	padding-left: 30px;
+}
+li.portrait-list-two>a {
+	display: block;
+	font-size: 14px;
+}
+li.portrait-list-two>a>span {
+	display: inline-block;
+	color: #777;
+	padding:8px  0;
+}
+li.portrait-list-two>a>span:hover {
+	color: #cf0a2c;
+}
+/* 右半边菜单（收货地址管理） */
+/* 收货地址管理的标题 */
+.rece-add-title {
+	width: 79%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	display: block;
+	border-bottom: 1px solid #dedede;
+}
+.rece-add-title>span {
+	font-size: 24px;
+}
+/* 收货地址管理 */
+.input-text-wrapper {
+	display: inline-block;
+}
+* { padding: 0; margin: 0; }
+.edit-dialog-wrapper input[type=text] {
+	border: none;	/* 去掉边框 */
+	outline: none; 	/* 去掉外边框 */ 
+	height: 35px;
+	text-indent: 1em;
+}
+.input-text-wrapper {
+	display: inline-block;
+	border: 1px solid #b0b0b0;
+	margin: 10px 0;
+}
+.edit-dialog-wrapper>table>thead>tr>th>span {
+	color: #CF0A2C;
+}
+.edit-dialog-wrapper>table>thead>tr>th>label {
+	font-size: 14px;
+}
+.address-style-wrapper {
+	border: 1px solid #b0b0b0;
+	margin-bottom: 10px;
+}
+.address-style-popup-wrapper {
+	margin: 10px 0;
+	padding: 20px 0 20px 0;
+	border: 1px solid #BD2C00;
+	display: none;
+}
+input.address-street {
+	width: 88%;
+	border: 1px solid #dedede;
+	margin-right: 45px;
+}
+textarea {
+	
+	font-size: 14px;
+}
+.detailed-address>p {
+	font-size: 14px;
+	color: #888;
+	text-indent: 2px;
+	margin: 0 45px 0 19px;
+	padding: 10px 0;
+	border-bottom: 1px solid #dedede;
+}
+.address-street-wrapper {
+	padding: 0 0 5px 20px;
+	width: 100%;
+}
+.zhijiexuanze {
+	font-size: 14px;
+	color: #BD2C00;
+	text-indent: 2px;
+	padding-top: 15px;
+    margin: 0 45px 0 19px;
+	cursor: pointer;
+}
+.choice-wapper {
+	display: none;
+}
+input[type=button] {
+	width: 160px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	transition: all 0.2s;
+}
+input.btn-add {
+	color: #fff;
+	background-color: #DA8703;
+	transition: all 0.4s;
+}
+input.btn-add:hover {
+	/* background-color: #bA8703; */
+	opacity: 0.9;
+}
+input.btn-cancel {
+	border: 1px solid #666666;
+}
+input.btn-cancel:hover {
+	background-color: #666666;
+	color: #fff;
+	border: 1px solid #666666;
+}
+.address-storage {
+	overflow: hidden;
+	padding: 13px 0 0 0 ;
+	background-color: #fafafa;
+	margin-top: 30px;
+}
+.address-storage>table {
+	width: 100%;
+}
+/* .address-storage tr:hover {
+	color: #BF0000;
+} */
+.address-storage>table>thead>tr>th {
+	font-size: 14px;
+    color: #888;
+    height: 14px;
+    line-height: 14px;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    text-align: center;
+}
+table .col-name {
+	width: 137px;
+}
+table .col-add {
+	width: 311px;
+}
+table .col-zip {
+	width: 128px;
+}
+table .col-tel {
+	width: 172px;
+}
+table .col-operate {
+	width: 199px;
+}
+.address-storage>table>tbody>tr {
+	border-bottom: 1px solid #000;
+	overflow: hidden;
+}
+.address-storage>table>tbody>tr>td {
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 10px 0;
+}
+.address-storage>table>tbody>tr>td>p {
+	width: 40px;
+	display: inline-block;
+	border-right: 1px solid #dedede;
+}
+.address-storage>table>tbody>tr>td>input {
+	width:90px;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	opacity: 0;
+	color: #0077AA;
+	transition: all 0.6s;
+} 
+.address-storage>table>tbody>tr>td>p:hover {
+	color: #CB242B;
+}
+.address-storage>table>tbody>tr>td>input.default {
+	opacity: 1;
+	color: #BF0000;
+}
+.address-storage>table>tbody>tr>td>input:hover {
+	opacity: 1;
+	color: #BF0000;
+}
+
+
